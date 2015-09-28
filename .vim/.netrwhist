@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/home/kingkong/practice/m02_test/m01_enc'
+let g:netrw_dirhist_2='/home/kingkong/Desktop/M02/sample_apl/m01_boot'
+let g:netrw_dirhist_3='/dev-sda6/code/se510/0216/RT288x_SDK/source/user/cm/avt_cdn_framework'
