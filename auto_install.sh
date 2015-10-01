@@ -1,23 +1,34 @@
 #!/bin/bash
-sudo apt-get install vim
-sudo apt-get install vim-gtk 
-sudo apt-get install ctags cscope vlc
-sudo apt-get install geany
-sudo apt-get install smbfs
-sudo apt-get install tftp-hpa tftpd-hpa
-sudo apt-get install zlib1g-dev
-sudo apt-get install bison
-sudo apt-get install flex
-sudo apt-get install texinfo
-sudo apt-get install gettext
-sudo apt-get install libglib2.0-dev
-sudo apt-get install aptitude
-sudo aptitude install g++
-sudo apt-get install ser2net
-sudo apt-get install nfs-common
-sudo apt-get install nfs-kernel-server
-sudo apt-get install ctags
-sudo apt-get install cscope
-sudo apt-get install meld
-sudo apt-get install git
-sudo apt-get install gcin
+echo 'y' |sudo apt-get install vim
+echo 'y' |sudo apt-get install vim-gtk 
+echo 'y' |sudo apt-get install cscope
+echo 'y' |sudo apt-get install ctags 
+echo 'y' |sudo apt-get install vlc
+echo 'y' |sudo apt-get install geany
+echo 'y' |sudo apt-get install smbfs
+
+echo 'y' |sudo apt-get install zlib1g-dev
+echo 'y' |sudo apt-get install bison
+echo 'y' |sudo apt-get install flex
+echo 'y' |sudo apt-get install texinfo
+echo 'y' |sudo apt-get install gettext
+echo 'y' |sudo apt-get install libglib2.0-dev
+echo 'y' |sudo apt-get install aptitude
+echo 'y' |sudo apt-get install g++
+echo 'y' |sudo apt-get install ser2net
+echo 'y' |sudo apt-get install nfs-common
+echo 'y' |sudo apt-get install nfs-kernel-server
+echo 'y' |sudo apt-get install ctags
+echo 'y' |sudo apt-get install cscope
+echo 'y' |sudo apt-get install meld
+echo 'y' |sudo apt-get install git
+echo 'y' |sudo apt-get install gcin
+echo 'y' |sudo apt-get install gitk
+echo 'y' |sudo apt-get install cifs
+echo 'y' |sudo apt-get install cifs-utils
+#for make menuconfig
+echo 'y' |sudo apt-get install libncurses5-dev
+
+
+echo 'y' |sudo apt-get install guake
+#gconftool-2 --install-schema-file=/usr/share/gconf/schemas/guake.schemas

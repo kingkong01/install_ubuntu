@@ -1,0 +1,7 @@
+#has_been_set
+function git_branch {
+ref=$(git symbolic-ref HEAD 2> /dev/null) || return;
+echo "("${ref#refs/heads/}") ";
+}
+
+export  PS1='\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}[\[\e[1;33m\]\h:\u\[\e[1;37m\]@\[\e[1;35m\](\t)\[\e[1;37m\]]:\[\e[1;31m\]\W\[\e[0m\] \[\e[1;34m\]$(git_branch)\[\e[1;32m\]\$ \[\e[0m\]'
