@@ -18,4 +18,6 @@ sudo apt-get install nfs-common
 sudo apt-get install nfs-kernel-server
 sudo apt-get install ctags
 sudo apt-get install cscope
+sudo apt-get install meld
 sudo apt-get install git
+sudo apt-get install gcin
