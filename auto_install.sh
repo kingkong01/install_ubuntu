@@ -28,7 +28,7 @@ echo 'y' |sudo apt-get install cifs
 echo 'y' |sudo apt-get install cifs-utils
 #for make menuconfig
 echo 'y' |sudo apt-get install libncurses5-dev
-
+echo 'y' |sudo apt-get install openssh-server
 
 echo 'y' |sudo apt-get install guake
 #gconftool-2 --install-schema-file=/usr/share/gconf/schemas/guake.schemas
