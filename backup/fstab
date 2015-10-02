@@ -1,0 +1,31 @@
+# /etc/fstab: static file system information.
+#
+# Use 'blkid' to print the universally unique identifier for a
+# device; this may be used with UUID= as a more robust way to name devices
+# that works even if disks are added and removed. See fstab(5).
+#
+# <file system> <mount point>   <type>  <options>       <dump>  <pass>
+# / was on /dev/sda6 during installation
+
+#/dev/sda1: UUID="1C167EA5167E8016" 
+#/dev/sda2: UUID="6CD09682D09651E6" 
+#/dev/sda3: UUID="968414E48414C91F" 
+#/dev/sda5: UUID="112e4ec5-3e40-4eef-99fc-1703d807df33" 
+#/dev/sda6: UUID="4330a2d4-3af0-46b6-a1c6-60d8840dd473" 
+#/dev/sdb1: UUID="DCA2AD5CA2AD3C40" 
+#/dev/sdc1: UUID="124407A0440785A7" 
+#/dev/sdc2: UUID="62F01180F0115C1B" 
+#/dev/sdc3: UUID="BCE41B80E41B3C58" 
+
+UUID=4330a2d4-3af0-46b6-a1c6-60d8840dd473 /               ext4    noatime,nodiratime,discard,errors=remount-ro 0       1
+# swap was on /dev/sda5 during installation
+UUID=112e4ec5-3e40-4eef-99fc-1703d807df33 none            swap    sw              0       0
+UUID=124407A0440785A7 /media/kingkong/partition_1         ntfs    rw,nosuid,nodev,relatime,permissions              0       0
+UUID=62F01180F0115C1B /media/kingkong/partition_2         ntfs    rw,nosuid,nodev,relatime,permissions              0       0
+UUID=BCE41B80E41B3C58 /media/kingkong/partition_3         ntfs    rw,nosuid,nodev,relatime,permissions              0       0
+UUID=DCA2AD5CA2AD3C40 /media/kingkong/32g_ssd             ntfs    rw,nosuid,nodev,relatime,permissions              0       0
+tmpfs /tmp tmpfs defaults,noatime,mode=1777 0 0
+tmpfs /var/spool tmpfs defaults,noatime,mode=1777 0 0
+tmpfs /var/tmp tmpfs defaults,noatime,mode=1777 0 0
+tmpfs /var/log tmpfs defaults,noatime,mode=0755 0 0
+tmpfs /home/kingkong/ram tmpfs size=1500m,mode=1777 0 0
