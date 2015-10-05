@@ -32,3 +32,10 @@ echo 'y' |sudo apt-get install openssh-server
 
 echo 'y' |sudo apt-get install guake
 #gconftool-2 --install-schema-file=/usr/share/gconf/schemas/guake.schemas
+
+
+./install_bison.sh
+./install_java.sh
+./install_ser2net.sh
+./install_tftp.sh
+./nfs_server.sh
