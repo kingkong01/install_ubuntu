@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-sudo apt-get install build-essential libpcre3 libpcre3-dev libssl-dev
+echo 'y' | sudo apt-get install build-essential libpcre3 libpcre3-dev libssl-dev
 test -d nginx-1.7.7 || tar -zxvf nginx-1.7.7.tar.gz
 test -d nginx-rtmp-module-master || unzip master.zip
 cd nginx-1.7.7
