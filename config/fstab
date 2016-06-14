@@ -22,7 +22,7 @@ UUID=4330a2d4-3af0-46b6-a1c6-60d8840dd473 /               ext4    noatime,nodira
 UUID=112e4ec5-3e40-4eef-99fc-1703d807df33 none            swap    sw              0       0
 UUID=124407A0440785A7 /media/kingkong/partition_1         ntfs    rw,nosuid,nodev,relatime,permissions              0       0
 UUID=62F01180F0115C1B /media/kingkong/partition_2         ntfs    rw,nosuid,nodev,relatime,permissions              0       0
-UUID=BCE41B80E41B3C58 /media/kingkong/partition_3         ntfs    rw,nosuid,nodev,relatime,permissions              0       0
+UUID=804afd29-4200-4f99-a965-262b185cfe4e /media/kingkong/partition_3         ext4     errors=remount-ro            0       0
 UUID=DCA2AD5CA2AD3C40 /media/kingkong/32g_ssd             ntfs    rw,nosuid,nodev,relatime,permissions              0       0
 tmpfs /tmp tmpfs defaults,noatime,mode=1777 0 0
 tmpfs /var/spool tmpfs defaults,noatime,mode=1777 0 0
